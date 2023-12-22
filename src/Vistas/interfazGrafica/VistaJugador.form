@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Vistas.interfazGrafica.VistaJugador">
+  <grid id="27dc6" binding="contentPane" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1123" height="400"/>
+    </constraints>
+    <properties>
+      <foreground color="-2104859"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="27e9" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="4df90" binding="ingresar" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Ingresar"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="3eb09" class="javax.swing.JButton" binding="enterBtn">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Enter"/>
+                </properties>
+              </component>
+              <component id="93c8d" class="javax.swing.JTextField" binding="ingresoNickname">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="86665" class="javax.swing.JLabel" binding="label">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Britannic Bold" size="24" style="0"/>
+                  <text value="Ingrese su nickname:"/>
+                </properties>
+              </component>
+              <component id="85ba6" class="javax.swing.JLabel" binding="labelBienvenida">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Britannic Bold" size="48" style="0"/>
+                  <text value="BIENVENIDO A CARIOCA"/>
+                  <verticalAlignment value="0"/>
+                  <verticalTextPosition value="0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="a9b9f" binding="jugar" layout-manager="GridLayoutManager" row-count="4" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Jugar"/>
+            </constraints>
+            <properties>
+              <foreground color="-2104859"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="485f4" class="javax.swing.JButton" binding="mazoBtn">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="MAZO"/>
+                </properties>
+              </component>
+              <component id="286a3" class="javax.swing.JButton" binding="iniciarRondaBtn">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="INICIAR RONDA"/>
+                </properties>
+              </component>
+              <component id="7e4f8" class="javax.swing.JLabel" binding="label1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Britannic Bold" size="16" style="0"/>
+                  <text value="TUS CARTAS:"/>
+                </properties>
+              </component>
+              <component id="48a47" class="javax.swing.JLabel" binding="label2">
+                <constraints>
+                  <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Britannic Bold" size="16" style="0"/>
+                  <text value="DATOS RONDA"/>
+                </properties>
+              </component>
+              <component id="94298" class="javax.swing.JButton" binding="pozoBtn">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="POZO"/>
+                </properties>
+              </component>
+              <component id="38e83" class="javax.swing.JButton" binding="bajarseBtn">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="BAJARSE"/>
+                </properties>
+              </component>
+              <component id="e8825" class="javax.swing.JSpinner" binding="spinner1" default-binding="true">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="90b12" class="javax.swing.JButton" binding="dejarBtn">
+                <constraints>
+                  <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="DEJAR "/>
+                </properties>
+              </component>
+              <component id="6ad45" class="javax.swing.JButton" binding="bajarBtn">
+                <constraints>
+                  <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="BAJAR"/>
+                </properties>
+              </component>
+              <scrollpane id="b3f17" binding="JScrollPane1">
+                <constraints>
+                  <grid row="1" column="5" row-span="3" col-span="2" vsize-policy="1" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="269a4" class="javax.swing.JTextArea" binding="datosRonda">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="b470b" class="javax.swing.JTextArea" binding="cartas">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                </properties>
+              </component>
+              <component id="7340a" class="javax.swing.JLabel" binding="label3">
+                <constraints>
+                  <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Britannic Bold" size="16" style="0"/>
+                  <text value="NOTIFICACIONES"/>
+                </properties>
+              </component>
+              <scrollpane id="97593" binding="JScrollPane2">
+                <constraints>
+                  <grid row="1" column="7" row-span="3" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="f29f9" class="javax.swing.JTextArea" binding="notificaciones">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="72f07" class="javax.swing.JButton" binding="salirBtn">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="SALIR"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="ff26a" binding="mj" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Best Players"/>
+            </constraints>
+            <properties>
+              <background color="-13947600"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="7217d" class="javax.swing.JLabel" binding="label6">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13947600"/>
+                  <font name="Britannic Bold" size="20" style="0"/>
+                  <foreground color="-10223616"/>
+                  <text value="&lt;html&gt;&lt;center&gt;&lt;b&gt;DATO CURIOSO:&lt;/b&gt;&lt;br&gt; &#10;                           ¡CR7 LIDERA&lt;br&gt;&#10;                           LA TABLA &lt;br&gt; &#10;                           DESDE 2021!&lt;/center&gt;&lt;/html&gt;&#10;"/>
+                </properties>
+              </component>
+              <component id="aae23" class="javax.swing.JTextArea" binding="textAreaMJ">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="7ed8" class="javax.swing.JLabel" binding="label5">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13947600"/>
+                  <font name="Britannic Bold" size="20" style="0"/>
+                  <foreground color="-15592942"/>
+                  <text value="&lt;html&gt;Puede consultar las reglas del juego en: &#10;                &lt;a href=\&quot;https://www.comolohago.cl/como-jugar-carioca/\&quot;&gt;www.comolohago.cl&lt;/a&gt;&lt;/html&gt;"/>
+                </properties>
+              </component>
+              <component id="9cbcd" class="javax.swing.JLabel" binding="label4">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13947600"/>
+                  <font name="Britannic Bold" size="28" style="0"/>
+                  <foreground color="-16514044"/>
+                  <text value="&lt;html&gt;&lt;u&gt;MEJORES JUGADORES DE CARIOCA:&lt;/u&gt;&lt;/html&gt;"/>
+                </properties>
+              </component>
+              <component id="da6b0" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <text value="TOP                   NICKNAME               PARTIDAS GANADAS"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
